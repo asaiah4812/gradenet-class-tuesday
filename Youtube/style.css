@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/* styling for the left nav div */
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-left button{
+    height: fit-content;
+    background: transparent;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.nav-left button:hover{
+    background: #f1f1f1;
+
+}
+
+
+.nav-left h2{
+    font-size: 25px;
+}
+
+.nav-left h2 sup{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.nav-left h2 i{
+    color: red;
+}
+
+.nav-center{
+    display: flex;
+    align-items: center;
+    background: #dddddd;
+    padding: 2px;
+    gap: 10px;
+    border-radius: 30px;
+}
+
+.search{
+    /* display: flex; */
+
+}
+
+
+.search input{
+    padding: 8px;
+    width: 500px;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border: none;
+    outline: none;
+}
+.search button{
+    padding: 8px;
+    /* width: 80%; */
+}
+
+.vdm{
+    padding: 8px;
+    border-radius: 40%;
+    border: none;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.third{
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    overflow: hidden;
+}
+.second i,
+.first i{
+    font-size: 30px;
+    padding: 2px;
+}
+
+.second i:hover,
+.first i:hover
+{
+    color: #cacaca;
+}
+.third img{
+    width:100%;
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 15px 20px 0 20px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+}
+
+.items .image{
+    width: 100%;
+    overflow: hidden;
+}
+
+.image img:hover{
+    transform: scale(1.1);
+}
+
+.image img{
+    width: 100%;
+    transition: all ease 0.4s;
+}
+.divider{
+    display: flex;
+    gap: 10px;
+}
+
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.desc h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.desc p{
+    color: #9d9d9d;
+    margin-bottom: 5px;
+}
+
+.desc span{
+    color: #9d9d9d;
+}
